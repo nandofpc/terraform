@@ -1,0 +1,17 @@
+location       = "brazilsouth"
+rg_name        = "rg-ho-testevra"
+capacity       = "2"
+redis_name     = "testeredis001"
+vnet_name      = "vnet"
+subnet_name    = "subnet"
+vnet_address   = ["192.168.0.0/16"]
+subnet_address = ["192.168.1.0/24"]
+centro_custo   = "TI"
+empresa        = "Bradesco"
+departamento   = "TI"
+app            = "Teste"
+ambiente       = "Desenvolvimento"
+bo             = "TI"
+to             = "TI"
+gerenciamento  = "vra"
+componente     = "redis_brso"
