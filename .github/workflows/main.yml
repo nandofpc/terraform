@@ -70,4 +70,4 @@ jobs:
 
     # Inicia chamada no Jenkins via http.
     - name: Terraform Init
-      run: curl -I "http://${{ secrets.TKUSER }}:${{ secrets.TKPASS }}@34.66.176.190:8080/job/Terraform-Pipeline/build?token=TerraformGit"
+      run: curl -I "http://${{ secrets.TKUSR }}:${{ secrets.TKPASS }}@34.66.176.190:8080/job/Terraform-Pipeline/build?token=TerraformGit"
